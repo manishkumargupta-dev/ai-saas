@@ -1,12 +1,5 @@
-import { UserButton } from "@clerk/nextjs";
-
 const DashboardPage = () => {
-  return (
-    <div className="flex justify-between">
-      Dashboard Page
-      <UserButton afterSignOutUrl="/" />
-    </div>
-  );
+  return <div className="flex justify-between">Dashboard Page</div>;
 };
 
 export default DashboardPage;
